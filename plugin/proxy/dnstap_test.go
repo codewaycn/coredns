@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/dnstap/msg"
-	"github.com/coredns/coredns/plugin/dnstap/test"
-	mwtest "github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/dnstap/msg"
+	"coredns/plugin/dnstap/test"
+	mwtest "coredns/plugin/test"
+	"coredns/request"
 
 	tap "github.com/dnstap/golang-dnstap"
 	"github.com/miekg/dns"

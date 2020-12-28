@@ -3,9 +3,9 @@ package dnssec
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/metrics"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 	"github.com/prometheus/client_golang/prometheus"

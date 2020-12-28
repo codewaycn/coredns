@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/pkg/dnstest"
+	clog "coredns/plugin/pkg/log"
+	"coredns/plugin/pkg/response"
+	"coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

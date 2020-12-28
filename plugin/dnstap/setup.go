@@ -3,14 +3,14 @@ package dnstap
 import (
 	"strings"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/dnstap/dnstapio"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/parse"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/dnstap/dnstapio"
+	clog "coredns/plugin/pkg/log"
+	"coredns/plugin/pkg/parse"
 
-	"github.com/mholt/caddy"
-	"github.com/mholt/caddy/caddyfile"
+	"github.com/caddyserver/caddy"
+	"github.com/caddyserver/caddy/caddyfile"
 )
 
 var log = clog.NewWithPlugin("dnstap")

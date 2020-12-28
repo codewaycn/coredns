@@ -3,8 +3,8 @@ package kubernetes
 import (
 	"testing"
 
-	"github.com/coredns/coredns/plugin/kubernetes/object"
-	"github.com/coredns/coredns/plugin/pkg/watch"
+	"coredns/plugin/kubernetes/object"
+	"coredns/plugin/pkg/watch"
 
 	api "k8s.io/api/core/v1"
 )

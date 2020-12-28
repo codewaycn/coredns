@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/file"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/file"
+	"coredns/plugin/pkg/fall"
+	"coredns/plugin/pkg/upstream"
+	"coredns/request"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/route53"

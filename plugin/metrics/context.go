@@ -3,7 +3,7 @@ package metrics
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin/metrics/vars"
+	"coredns/plugin/metrics/vars"
 )
 
 // WithServer returns the current server handling the request. It returns the

@@ -7,8 +7,8 @@ package forward
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin/pkg/transport"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/pkg/transport"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

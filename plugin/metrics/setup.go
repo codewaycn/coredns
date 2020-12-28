@@ -4,13 +4,13 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/coremain"
-	"github.com/coredns/coredns/plugin"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/uniq"
+	"coredns/core/dnsserver"
+	"coredns/coremain"
+	"coredns/plugin"
+	clog "coredns/plugin/pkg/log"
+	"coredns/plugin/pkg/uniq"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 var (

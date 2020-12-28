@@ -1,11 +1,11 @@
 package tls
 
 import (
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/tls"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/pkg/tls"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func init() {

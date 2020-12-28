@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/pkg/dnstest"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

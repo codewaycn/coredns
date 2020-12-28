@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/pkg/dnsutil"
+	clog "coredns/plugin/pkg/log"
+	"coredns/plugin/pkg/parse"
+	"coredns/plugin/pkg/upstream"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 	"github.com/miekg/dns"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 

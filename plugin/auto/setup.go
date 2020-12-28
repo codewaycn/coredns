@@ -7,14 +7,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/metrics"
+	clog "coredns/plugin/pkg/log"
+	"coredns/plugin/pkg/parse"
+	"coredns/plugin/pkg/upstream"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 var log = clog.NewWithPlugin("auto")

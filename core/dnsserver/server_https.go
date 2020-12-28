@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/plugin/pkg/doh"
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/plugin/pkg/transport"
+	"coredns/plugin/pkg/dnsutil"
+	"coredns/plugin/pkg/doh"
+	"coredns/plugin/pkg/response"
+	"coredns/plugin/pkg/transport"
 )
 
 // ServerHTTPS represents an instance of a DNS-over-HTTPS server.

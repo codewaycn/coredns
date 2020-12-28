@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/plugin/proxy"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/etcd/msg"
+	"coredns/plugin/pkg/dnsutil"
+	"coredns/plugin/proxy"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

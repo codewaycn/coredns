@@ -8,7 +8,7 @@ import (
 	"github.com/miekg/dns"
 	"google.golang.org/grpc"
 
-	"github.com/coredns/coredns/pb"
+	"coredns/pb"
 )
 
 func TestGrpc(t *testing.T) {

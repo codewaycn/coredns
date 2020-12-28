@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/test"
 
 	"github.com/miekg/dns"
 	api "k8s.io/api/core/v1"

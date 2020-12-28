@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coredns/coredns/plugin/file/tree"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/file/tree"
+	"coredns/plugin/pkg/upstream"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

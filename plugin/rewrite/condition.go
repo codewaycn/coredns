@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/coredns/coredns/plugin/pkg/replacer"
+	"coredns/plugin/pkg/replacer"
 
 	"github.com/miekg/dns"
 )

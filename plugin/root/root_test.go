@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coredns/coredns/core/dnsserver"
+	"coredns/core/dnsserver"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func TestRoot(t *testing.T) {

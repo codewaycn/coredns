@@ -4,10 +4,10 @@ import (
 	"context"
 	"net"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/pkg/dnsutil"
+	"coredns/plugin/pkg/fall"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

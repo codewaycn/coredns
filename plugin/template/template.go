@@ -7,11 +7,11 @@ import (
 	"strconv"
 	gotmpl "text/template"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/metrics"
+	"coredns/plugin/pkg/fall"
+	"coredns/plugin/pkg/upstream"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

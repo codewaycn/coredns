@@ -3,13 +3,13 @@ package federation
 import (
 	"fmt"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/kubernetes"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/kubernetes"
+	"coredns/plugin/pkg/upstream"
 	"github.com/miekg/dns"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func init() {

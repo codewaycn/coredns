@@ -1,13 +1,13 @@
 package secondary
 
 import (
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/file"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/file"
+	"coredns/plugin/pkg/parse"
+	"coredns/plugin/pkg/upstream"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func init() {

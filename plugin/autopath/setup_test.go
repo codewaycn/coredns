@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/test"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func TestSetupAutoPath(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/etcd/msg"
+	"coredns/plugin/pkg/dnstest"
+	"coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

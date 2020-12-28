@@ -4,18 +4,18 @@ import (
 	"context"
 	"strings"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/pkg/fall"
+	clog "coredns/plugin/pkg/log"
+	"coredns/plugin/pkg/upstream"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/route53"
 	"github.com/aws/aws-sdk-go/service/route53/route53iface"
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 var log = clog.NewWithPlugin("route53")

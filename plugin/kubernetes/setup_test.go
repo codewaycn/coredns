@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/fall"
+	"coredns/plugin/pkg/fall"
 
-	"github.com/coredns/coredns/plugin/proxy"
-	"github.com/mholt/caddy"
+	"coredns/plugin/proxy"
+	"github.com/caddyserver/caddy"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

@@ -44,5 +44,6 @@ var Directives = []string{
 	"proxy",
 	"erratic",
 	"whoami",
+	"nacos",
 	"on",
 }

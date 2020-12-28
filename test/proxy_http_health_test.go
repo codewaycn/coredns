@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/proxy"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/proxy"
+	"coredns/plugin/test"
+	"coredns/request"
 	"github.com/miekg/dns"
 )
 

@@ -6,9 +6,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/etcd/msg"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 	api "k8s.io/api/core/v1"
@@ -96,7 +96,7 @@ func (k *Kubernetes) transfer(c chan dns.RR, zone string) {
 					s.Host = host
 
 					// Need to generate this to handle use cases for peer-finder
-					// ref: https://github.com/coredns/coredns/pull/823
+					// ref: https://coredns/pull/823
 					c <- s.NewSRV(msg.Domain(s.Key), 100)
 
 					// As per spec unnamed ports do not have a srv record

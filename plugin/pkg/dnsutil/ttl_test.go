@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/pkg/response"
+	"coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

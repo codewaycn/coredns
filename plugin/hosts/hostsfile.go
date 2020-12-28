@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
+	"coredns/plugin"
 )
 
 func parseLiteralIP(addr string) net.IP {

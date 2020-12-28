@@ -5,7 +5,7 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/coredns/coredns/plugin/dnstap/msg"
+	"coredns/plugin/dnstap/msg"
 
 	tap "github.com/dnstap/golang-dnstap"
 )

@@ -4,7 +4,7 @@ package loadbalance
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin"
+	"coredns/plugin"
 
 	"github.com/miekg/dns"
 )

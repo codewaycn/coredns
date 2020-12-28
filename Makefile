@@ -13,23 +13,23 @@ all: coredns
 
 .PHONY: coredns
 coredns: $(CHECKS)
-	CGO_ENABLED=$(CGO_ENABLED) $(SYSTEM) go build $(BUILDOPTS) -v -ldflags="-s -w -X github.com/coredns/coredns/coremain.GitCommit=$(GITCOMMIT)" -o $(BINARY)
+	CGO_ENABLED=$(CGO_ENABLED) $(SYSTEM) go build $(BUILDOPTS) -ldflags="-s -w -X github.com/coredns/coredns/coremain.GitCommit=$(GITCOMMIT)" -o $(BINARY)
 
 .PHONY: check
-check: presubmit core/zplugin.go core/dnsserver/zdirectives.go godeps
+#check: presubmit core/zplugin.go core/dnsserver/zdirectives.go godeps
 
 .PHONY: godeps
 godeps:
 	@ # Not vendoring these, so external plugins compile, avoiding:
-	@ # cannot use c (type *"github.com/mholt/caddy".Controller) as type
-	@ # *"github.com/coredns/coredns/vendor/github.com/mholt/caddy".Controller like errors.
+	@ # cannot use c (type *"github.com/caddyserver/caddy".Controller) as type
+	@ # *"github.com/coredns/coredns/vendor/github.com/caddyserver/caddy".Controller like errors.
 	(cd $(GOPATH)/src/github.com/caddyserver/caddy 2>/dev/null              && git checkout -q master 2>/dev/null || true)
 	(cd $(GOPATH)/src/github.com/miekg/dns 2>/dev/null                && git checkout -q master 2>/dev/null || true)
 	(cd $(GOPATH)/src/github.com/prometheus/client_golang 2>/dev/null && git checkout -q master 2>/dev/null || true)
-	go get -u github.com/caddyserver/caddy
-	go get -u github.com/miekg/dns
-	go get -u github.com/prometheus/client_golang/prometheus/promhttp
-	go get -u github.com/prometheus/client_golang/prometheus
+	#go get -u github.com/caddyserver/caddy
+	#go get -u github.com/miekg/dns
+	#go get -u github.com/prometheus/client_golang/prometheus/promhttp
+	#go get -u github.com/prometheus/client_golang/prometheus
 	(cd $(GOPATH)/src/github.com/caddyserver/caddy              && git checkout -q v0.10.13)
 	(cd $(GOPATH)/src/github.com/miekg/dns                && git checkout -q v1.0.15)
 	(cd $(GOPATH)/src/github.com/prometheus/client_golang && git checkout -q v0.8.0)

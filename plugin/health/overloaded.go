@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
+	"coredns/plugin"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

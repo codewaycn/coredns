@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/erratic"
+	"coredns/plugin/erratic"
 )
 
 func TestHealth(t *testing.T) {

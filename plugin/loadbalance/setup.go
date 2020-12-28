@@ -3,11 +3,11 @@ package loadbalance
 import (
 	"fmt"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	clog "coredns/plugin/pkg/log"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 var log = clog.NewWithPlugin("loadbalance")

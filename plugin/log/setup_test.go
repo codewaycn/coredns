@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/pkg/response"
+	"coredns/plugin/pkg/response"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func TestLogParse(t *testing.T) {

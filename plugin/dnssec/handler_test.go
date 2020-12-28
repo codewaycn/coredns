@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/file"
-	"github.com/coredns/coredns/plugin/pkg/cache"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/file"
+	"coredns/plugin/pkg/cache"
+	"coredns/plugin/pkg/dnstest"
+	"coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

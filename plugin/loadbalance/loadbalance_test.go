@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin"
+	"coredns/plugin/pkg/dnstest"
+	"coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/pkg/transport"
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/pkg/dnstest"
+	"coredns/plugin/pkg/transport"
+	"coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

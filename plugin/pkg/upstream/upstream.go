@@ -5,11 +5,11 @@ package upstream
 import (
 	"github.com/miekg/dns"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin/pkg/nonwriter"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/proxy"
-	"github.com/coredns/coredns/request"
+	"coredns/core/dnsserver"
+	"coredns/plugin/pkg/nonwriter"
+	"coredns/plugin/pkg/parse"
+	"coredns/plugin/proxy"
+	"coredns/request"
 )
 
 // Upstream is used to resolve CNAME targets

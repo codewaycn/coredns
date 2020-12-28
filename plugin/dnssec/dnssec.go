@@ -5,11 +5,11 @@ package dnssec
 import (
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/cache"
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/plugin/pkg/singleflight"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/pkg/cache"
+	"coredns/plugin/pkg/response"
+	"coredns/plugin/pkg/singleflight"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

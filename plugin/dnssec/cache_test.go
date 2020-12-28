@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/cache"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/pkg/cache"
+	"coredns/plugin/test"
+	"coredns/request"
 )
 
 func TestCacheSet(t *testing.T) {

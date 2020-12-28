@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/metrics"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func init() {

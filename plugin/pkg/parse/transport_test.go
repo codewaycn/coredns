@@ -3,7 +3,7 @@ package parse
 import (
 	"testing"
 
-	"github.com/coredns/coredns/plugin/pkg/transport"
+	"coredns/plugin/pkg/transport"
 )
 
 func TestTransport(t *testing.T) {

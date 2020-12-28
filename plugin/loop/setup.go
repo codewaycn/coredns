@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	"coredns/plugin/pkg/dnsutil"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func init() {

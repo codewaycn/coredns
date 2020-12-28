@@ -3,10 +3,10 @@ package kubernetes
 import (
 	"testing"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/kubernetes/object"
-	"github.com/coredns/coredns/plugin/pkg/watch"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/kubernetes/object"
+	"coredns/plugin/pkg/watch"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 	api "k8s.io/api/core/v1"

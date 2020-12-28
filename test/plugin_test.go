@@ -3,12 +3,12 @@ package test
 import (
 	"testing"
 
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/test"
 
 	"github.com/miekg/dns"
 
-	// Load all managed plugins in github.com/coredns/coredns
-	_ "github.com/coredns/coredns/core/plugin"
+	// Load all managed plugins in coredns
+	_ "coredns/core/plugin"
 )
 
 func benchmarkLookupBalanceRewriteCache(b *testing.B) {

@@ -7,11 +7,11 @@ import (
 	"testing"
 	gotmpl "text/template"
 
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/plugin/test"
+	"coredns/plugin/pkg/dnstest"
+	"coredns/plugin/pkg/fall"
+	"coredns/plugin/test"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 	"github.com/miekg/dns"
 )
 

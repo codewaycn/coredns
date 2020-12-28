@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"sync/atomic"
 
-	"github.com/coredns/coredns/plugin/pkg/log"
+	"coredns/plugin/pkg/log"
 )
 
 var (

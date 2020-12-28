@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/pkg/response"
+	"coredns/plugin/test"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

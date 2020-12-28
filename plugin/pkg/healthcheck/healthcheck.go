@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coredns/coredns/plugin/pkg/log"
+	"coredns/plugin/pkg/log"
 )
 
 // UpstreamHostDownFunc can be used to customize how Down behaves.

@@ -9,10 +9,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics"
-	"github.com/coredns/coredns/plugin/pkg/healthcheck"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/metrics"
+	"coredns/plugin/pkg/healthcheck"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 	ot "github.com/opentracing/opentracing-go"

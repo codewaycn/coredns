@@ -4,15 +4,15 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	mwtls "github.com/coredns/coredns/plugin/pkg/tls"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/plugin/proxy"
+	"coredns/core/dnsserver"
+	"coredns/plugin"
+	clog "coredns/plugin/pkg/log"
+	mwtls "coredns/plugin/pkg/tls"
+	"coredns/plugin/pkg/upstream"
+	"coredns/plugin/proxy"
 
 	etcdcv3 "github.com/coreos/etcd/clientv3"
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 var log = clog.NewWithPlugin("etcd")

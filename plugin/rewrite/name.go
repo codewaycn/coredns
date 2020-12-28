@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

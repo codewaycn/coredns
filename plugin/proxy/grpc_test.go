@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/pkg/healthcheck"
-	"github.com/coredns/coredns/plugin/pkg/tls"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/pkg/healthcheck"
+	"coredns/plugin/pkg/tls"
+	"coredns/plugin/test"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 	"google.golang.org/grpc/grpclog"

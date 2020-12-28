@@ -3,7 +3,7 @@ package proxy
 import (
 	"context"
 
-	"github.com/coredns/coredns/request"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

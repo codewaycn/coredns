@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/coredns/coredns/request"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

@@ -4,9 +4,9 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/coredns/coredns/plugin"
+	"coredns/plugin"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 // Config configuration for a single server.

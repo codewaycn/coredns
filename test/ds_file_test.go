@@ -3,9 +3,9 @@ package test
 import (
 	"testing"
 
-	"github.com/coredns/coredns/plugin/proxy"
-	mtest "github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/proxy"
+	mtest "coredns/plugin/test"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

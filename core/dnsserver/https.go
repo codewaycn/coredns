@@ -3,7 +3,7 @@ package dnsserver
 import (
 	"net"
 
-	"github.com/coredns/coredns/plugin/pkg/nonwriter"
+	"coredns/plugin/pkg/nonwriter"
 )
 
 // DoHWriter is a nonwriter.Writer that adds more specific LocalAddr and RemoteAddr methods.

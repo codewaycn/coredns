@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coredns/coredns/plugin/pkg/parse"
+	"coredns/plugin/pkg/parse"
 	"github.com/miekg/dns"
 )
 

@@ -3,11 +3,11 @@ package metrics
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics/vars"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/pkg/rcode"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	"coredns/plugin/metrics/vars"
+	"coredns/plugin/pkg/dnstest"
+	"coredns/plugin/pkg/rcode"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

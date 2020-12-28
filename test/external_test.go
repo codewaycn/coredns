@@ -64,9 +64,9 @@ func addExamplePlugin() error {
 var (
 	goBuild  = exec.Command("go", "build")
 	goGen    = exec.Command("go", "generate")
-	goGet    = exec.Command("go", "get", "github.com/coredns/example")
+	goGet    = exec.Command("go", "get", "example")
 	gitReset = exec.Command("git", "checkout", "core/*")
 	coredns  = exec.Command("./coredns", "-plugins")
 )
 
-const example = "1001:example:github.com/coredns/example"
+const example = "1001:example:example"

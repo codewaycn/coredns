@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/coredns/coredns/core/dnsserver"
+	"coredns/core/dnsserver"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 // As we use the filesystem as-is, these files need to exist ON DISK for the readme test to work. This is especially

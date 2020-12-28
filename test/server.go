@@ -3,12 +3,12 @@ package test
 import (
 	"sync"
 
-	"github.com/coredns/coredns/core/dnsserver"
+	"coredns/core/dnsserver"
 
 	// Hook in CoreDNS.
-	_ "github.com/coredns/coredns/core"
+	_ "coredns/core"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 var mu sync.Mutex

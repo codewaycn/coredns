@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/coredns/coredns/plugin"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin"
+	clog "coredns/plugin/pkg/log"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

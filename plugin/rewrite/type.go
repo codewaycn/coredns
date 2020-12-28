@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coredns/coredns/request"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )

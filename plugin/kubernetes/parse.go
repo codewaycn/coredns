@@ -1,8 +1,8 @@
 package kubernetes
 
 import (
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/request"
+	"coredns/plugin/pkg/dnsutil"
+	"coredns/request"
 
 	"github.com/miekg/dns"
 )
